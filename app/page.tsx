@@ -2,6 +2,8 @@ import { createClient } from '@/lib/supabase/server'
 import Link from 'next/link'
 import Header from '@/components/header'
 
+export const dynamic = 'force-dynamic'
+
 type Product = {
   id: string
   title: string

@@ -3,6 +3,8 @@
 import { createClient } from '@/lib/supabase/client'
 import Link from 'next/link'
 
+export const dynamic = 'force-dynamic'
+
 export default function LoginPage() {
   const supabase = createClient()
 
